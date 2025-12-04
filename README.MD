@@ -1,6 +1,8 @@
 # Docker Sonarqube
 
-O objetivo é criar um ambiente com SonarQube e PostgreSQL para uso em qualquer ambiente que tenha o Docker. O projeto foi criado com base no vídeo [“Instalando e Configurando o SonarQube com Docker Compose”](https://www.youtube.com/watch?v=HSFHgti6nXg) no meu canal no YouTube.
+Este projeto é um fork do repositório de [Fabricio Veronez](https://github.com/fabricioveronez/docker-sonarqube).
+
+O objetivo é criar um ambiente com SonarQube e PostgreSQL para uso em qualquer ambiente que tenha o Docker. O projeto original foi criado com base no vídeo [“Instalando e Configurando o SonarQube com Docker Compose”](https://www.youtube.com/watch?v=HSFHgti6nXg).
 
 ## Serviços criados
 
@@ -23,6 +25,7 @@ O objetivo é criar um ambiente com SonarQube e PostgreSQL para uso em qualquer 
 
 - `sonar_data`: Armazena dados do SonarQube de forma persistente.
 - `sonar_logs`: Armazena logs do SonarQube de forma persistente.
+- `sonar_extensions`: Armazena extensões do SonarQube de forma persistente.
 - `sonar_db`: Armazena dados do banco de dados PostgreSQL de forma persistente.
 
 Este arquivo configura a rede e volumes necessários para que o SonarQube e o PostgreSQL funcionem corretamente e persistam os dados.
